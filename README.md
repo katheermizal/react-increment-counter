@@ -7,7 +7,7 @@ Should have Knowledge in <br />
 ## Preview
 ![](screen-capture.gif)
 
-##Explaination
+## Explaination
 
 Set strikes initial value is 0. <br />
 You can able to change initial state value from here <br />
@@ -18,16 +18,12 @@ You can able to change initial state value from here <br />
 Then Change strikes increment value by 100 <br />
 ``` Es6 React JavaScript 
 timerTick() {
-	this.setState((prevState) => {
-		return {
-			strikes: prevState.strikes + 100
-		};
-	});
+ this.setState((prevState) => {
+  return { strikes: prevState.strikes + 100 };
+});
 
-	// OR 
+// OR 
 
-	// this.setState({
-	//     strikes: this.state.strikes + 100
-	// });
+// this.setState({ strikes: this.state.strikes + 100 });
 }
 ```
