@@ -4,6 +4,8 @@ Should have Knowledge in <br />
 1. ES6  <br />
 2. React <br />
 
+## Preview
+![](screen-capture.gif)
 
 ##Explaination
 
